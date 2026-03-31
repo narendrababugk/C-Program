@@ -1,4 +1,4 @@
-/*#include<stdio.h>
+#include<stdio.h>
 #include<stdlib.h>
 
 void arrayinput(int n,int *arr)
@@ -63,21 +63,8 @@ void main()
   }
   }
   }
-}*/
-/*
-#include<stdio.h>
-#include<string.h>
-void main(){
- char name[]="ardneraN";
- char surname[]="babu";
-//strncat(name,surname,3);
-int x =strlen(name);
-printf("My surname is %d\n",x);
-printf("My fullname is %s\n",surname);
- printf("My full name is %s",name);
 }
-*/
-/*#include<stdio.h>
+#include<stdio.h>
 void main(){
  int arr[5]={1,2,3,4,5};
  int n=5;
@@ -92,8 +79,8 @@ void main(){
  for(int i=0;i<n;i++){
  printf("%d",arr[i]);
  }
-}*/
-/*
+}
+
 #include<stdio.h>
 #include<conio.h>
 void main()
@@ -102,5 +89,4 @@ int a[10]={11,22,33,44};
 int *ptr1;
 ptr1 = &a; //ptr1 is a pointer to variable a
 printf("The address of a=%p and value of a=%d\n",*ptr1,*ptr1);
-}*/
-/*
+}
